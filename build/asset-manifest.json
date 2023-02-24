@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5046ea5.css",
+    "main.js": "/static/js/main.87c29e43.js",
+    "static/media/Prakash.png": "/static/media/Prakash.123d992d08e7c8be2635.png",
+    "static/media/educateBack.jpg": "/static/media/educateBack.628af2aee4464a4fc5a3.jpg",
+    "static/media/projectback.jpg": "/static/media/projectback.1364f7f1c787dbb2b9bb.jpg",
+    "static/media/github.png": "/static/media/github.f3d873d71aa989badfd2.png",
+    "static/media/send.png": "/static/media/send.cd955032eb48d9668e1d.png",
+    "static/media/letter-p.png": "/static/media/letter-p.a45dea52462a91bb14d4.png",
+    "static/media/linkedin.png": "/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/index.html",
+    "main.c5046ea5.css.map": "/static/css/main.c5046ea5.css.map",
+    "main.87c29e43.js.map": "/static/js/main.87c29e43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5046ea5.css",
+    "static/js/main.87c29e43.js"
+  ]
+}
