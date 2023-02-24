@@ -1,0 +1,391 @@
+body{
+  background-image:url("./Images/Prakash.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+*{
+  padding: 0px;
+  margin:0px;
+  font-family: Sofia,sans-serif;
+}
+@media screen and (max-width:486px){
+  *{
+    box-sizing: border-box;
+  }
+}
+.container-contact #contact{
+  width: 13vw;
+  border: 2px solid white;
+  border-radius: 30px;
+  height: 60vh;
+  position: fixed;
+  left: 67vw;
+  top: 25vh;
+  background-color: rgb(220, 230, 230);
+  transform: rotate(55deg);
+  
+}
+.details{
+  padding-top: 20vh;
+}
+.details a{
+  text-decoration: none;
+  color:white ;
+  background-color:red;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  margin: 20vw;
+  border: 2px solid white;
+}
+.details a:hover{
+  background-color: white;
+  color: red;
+  transition: all 0.5s;
+}
+.container-contact #contact h1{
+  color: red;
+  margin-top: 110px;
+  font-size: small;
+  transform: rotate(270deg);
+}
+.nav{
+  display: flex;
+  padding: 30px;
+}
+.nav .navbas{
+  padding-left: 60vw;
+}
+.nav .navbas a{
+  list-style-type: none;
+  color:rgb(236, 238, 233);
+  text-decoration: none;
+  margin-right: 75px;
+  font-size: 18px;
+}
+.nav .navbas a:hover{
+  font-size: 18px;
+  transition: all 0.5s;
+  color:red;
+}
+.nav a.login{
+  background-color:red;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.nav .login:hover{
+  cursor: pointer;
+  background-color: white;
+}
+
+
+#dropdown-content{
+  display: none;
+  position: fixed;
+}
+.dropdown:hover #dropdown-content{
+  display: block;
+  animation: fade-in 1s;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.dropdown a{
+  text-decoration: none;
+  color: rgb(213, 227, 237);
+  display: block;
+  padding-bottom: 30px;
+}
+.dropdown a:hover{
+  font-size: 20px;
+  color: red;
+  transition:font-size 0.5s;
+}
+.container1{
+  color:rgb(190, 163, 163);
+  margin-left:160px;
+  padding-top:80px ;
+}
+.container1 .start{
+  text-decoration: none;
+  background-color:rgb(245, 234, 220);
+  padding: 10px;
+  color:rgb(30, 27, 27);
+  border: 1px solid rgb(174, 173, 167);
+  border-radius: 25px;
+}
+.container1 .start:hover{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.5s;
+}
+.container1 .intro{
+  padding-bottom: 40px;
+}
+.intro h1{
+  font-size: 35px;
+}
+.container2{
+  color:rgb(179, 161, 161);
+  margin: 150px;
+  
+}
+.container2 h2:hover{
+  transition:all 0.5s;
+  color:bisque;
+  cursor: pointer;
+}
+.container2 p{
+  color: rgb(173, 155, 155);
+  font-size: 17px;
+}
+.foot{
+  background-image:linear-gradient(rgb(110, 89, 89),rgb(58, 55, 55),rgb(12, 12, 12)); 
+  background-attachment: fixed;
+  display: flex;
+  color: rgb(189, 170, 170);
+  justify-content: space-between;
+}
+.foot .symbols{
+  padding: 60px;
+}
+.foot .symbols a{
+  padding-right: 30px;
+
+}
+.symbols a:hover{
+  padding: 10px;
+  transition: all 0.5s;
+}
+.col1{
+  margin-left: 20px;
+}
+.col1 .foot-content a{
+  text-decoration: none;
+  padding: 30px;
+  font-size: 20px;
+  color:rgb(189, 170, 170);
+}
+.forms input{
+  padding: 5px;
+  border: 2px solid wheat;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.forms h1{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.foot .forms{
+  margin-left:20vw;
+  padding: 0px;
+}
+.foot .col2{
+  padding-top:70px;
+  font-size: 10px;
+  margin-right: 40px;
+}
+.foot .col2 img{
+  float: right;
+  border: 2px solid red;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 7vw;
+}
+.product img{
+  width: 20vw;
+  height: 50vh;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 30px 20px;
+}
+.product{
+  text-align: center;
+  color:white;
+}
+
+.product img:hover{
+  transition: all 0.5s;
+  box-shadow:0 0 2px #001e28;
+  border-radius: 1px;
+  cursor: pointer;
+  background-color: rgb(62, 60, 57);
+}
+.hobby{
+  background-image:url("./Images/educateBack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hobby-opt{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10vw;
+  margin-bottom:20px;
+}
+.hobby-opt button{
+  padding: 10px;
+  margin-right: 20px;
+  background-color:red;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.hobby-opt button:hover{
+  background-color: white;
+  color: red;
+}
+.mainedu{
+  font-size: 30px;
+  transform: rotate(-40deg);
+  position: fixed;
+  left: 66vw;
+  top: 51vh;
+  color: aqua;
+}
+.mainedu:hover{
+  color: antiquewhite;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 40px;
+}
+.educate{
+  display: block;
+  font-size: 10px;
+  color: antiquewhite;
+  padding-left: 10vw;
+  
+}
+.educate-nav{
+  padding: 0px;
+}
+.educate1{
+  padding: 30px;
+}
+.educate1:hover{
+  border: 2px solid rgb(125, 112, 112);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+  transition: all 1s;
+}
+.educate2{
+  padding: 30px;
+}
+.educate2:hover{
+  border: 2px solid rgb(125, 112, 112);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+  transition: all 1s;
+}
+.educate2-1{
+  padding-top: 10px;
+  font-size: 14px;
+}
+.educate3{
+  padding: 30px;
+}
+.educate3:hover{
+  border: 2px solid rgb(125, 112, 112);
+  width: fit-content;
+  padding: 15px;
+  border-radius: 30px;
+  transition: all 1s;
+}
+.project{
+  background-image:url("./Images/projectback.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.project-content{
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(248, 210, 210);
+  font-size: 18px;
+}
+.project1,.project2,.project3{
+  width: 20vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px;
+  margin-left: 15vw;
+  margin-bottom: 40px;
+  border: 2px solid rgb(101, 91, 91);
+  border-radius: 50px;
+}
+.project1{
+  height: 90vh;
+}
+
+.project1:hover,.project2:hover,.project3:hover{
+  border: 3px solid white;
+  transition: all 0.5s;
+}
+.project-content a{
+  text-decoration: none;
+  color: rgb(222, 134, 19);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-left:10px;
+  padding-right: 10px;
+  margin: 20px;
+}
+.intern-content{
+  display: flex;
+  width: fit-content;
+  flex-wrap: wrap;
+  color: aqua;
+  margin: 5vw;
+  margin-left: 10vw;
+}
+.intern-content:hover{
+  color: rgb(231, 214, 191);
+}
+.intern-content .content1{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid wheat;
+  text-align: center;
+  align-items: center;
+  padding:40px;
+  
+}
+.intern-content .content1 p{
+  padding-bottom: 20px;
+}
+.intern-content a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 1px solid wheat;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.intern-content a:hover{
+  background-color:brown;
+}
+
