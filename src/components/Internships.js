@@ -13,7 +13,7 @@ function Internships() {
           <h1>Internship</h1>
           <p>Dynamatix Analytics Private Limited</p>
           <p> 813 Manjeera Trinity Corporate, Kukatpally, Hyderabad 500072</p>
-          <Link to="../Images/OfferLetter.pdf">OfferLetter</Link>
+          <Link to="../Images/OfferLetter.pdf" download={true}>OfferLetter</Link>
         </div>
       </div>
    
