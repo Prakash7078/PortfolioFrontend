@@ -28,6 +28,8 @@ function Projects() {
           <h2>Portfolio</h2>
           <p>MERN</p>
           <p>My Portfolio using the MERN stack. Here all professional details and my hobbies you can see, and also you can post your questions in that website.You can text me also.</p>
+          <Link to="https://chandra-prakash.netlify.app/" target="_blank">Portfolio</Link>
+          <Link to="https://github.com/Prakash7078/PortfolioFrontend" target="_blank">code</Link>
         </div>
       </div>
     </div>

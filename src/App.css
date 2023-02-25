@@ -352,6 +352,10 @@ body{
   padding-right: 10px;
   margin: 20px;
 }
+.project-content a:hover{
+  background-color: antiquewhite;
+  transition: all 1s;
+}
 .intern-content{
   display: flex;
   width: fit-content;
