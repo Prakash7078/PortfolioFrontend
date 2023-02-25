@@ -1,7 +1,6 @@
 import axios from 'axios';
 import React from 'react'
 import Footer from './Footer';
-import Marquee from "react-fast-marquee";
 import Navbar from './Navbar';
 function Content() {
   return (
@@ -14,7 +13,7 @@ function Content() {
                 <p>Iam a student, I want to become a Softeware developer.</p>
                 
             </div>
-            <a href="../Images/Resume.pdf"className='start' download={true}>Resume</a>
+            <a href="https://drive.google.com/file/d/1wA1gQOrLBpY0pC6NW9XYjW6q7UmKQ4Ee/view?usp=sharing" target="_blank"className='start' download={true}>Resume</a>
         </div>
         <div className="container2">
             <h2 id='about'>ABOUT</h2>

@@ -14,29 +14,14 @@ body{
     box-sizing: border-box;
   }
 }
-.container-contact #contact{
-  width: 13vw;
-  border: 2px solid white;
-  border-radius: 30px;
-  height: 60vh;
-  position: fixed;
-  left: 67vw;
-  top: 25vh;
-  background-color: rgb(220, 230, 230);
-  transform: rotate(55deg);
-  
-}
-.details{
-  padding-top: 20vh;
-}
+
+
 .details a{
   text-decoration: none;
   color:white ;
   background-color:red;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 5px 30px 5px 30px;
   border-radius: 10px;
-  margin: 20vw;
   border: 2px solid white;
 }
 .details a:hover{
@@ -389,7 +374,48 @@ body{
   cursor: pointer;
   
 }
+.container-contact #contact{
+  width: 13vw;
+  border: 2px solid white;
+  border-radius: 30px;
+  height: 60vh;
+  position: fixed;
+  left: 67vw;
+  top: 20vh;
+  background-color: rgb(220, 230, 230);
+  transform: rotate(55deg);
+  text-align: center;
+  
+}
+
 .intern-content a:hover{
   background-color:brown;
 }
+.main-contact{
+  display:flex;
+  margin-top: 10vw;
+  margin-left: 20vw;
+}
+.recentmsg{
+  display:none;
+}
+.recentmsg label{
+  font-size: 20px;
+ 
+}
+.recent:hover .recentmsg{
+  display: block;
+  padding-top: 30px;
 
+}
+.recent{
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 255, 51);
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  padding:5px 10px 5px 10px;
+  border-radius: 5px;
+  margin-left:20px;
+  border: 2px solid white;
+}

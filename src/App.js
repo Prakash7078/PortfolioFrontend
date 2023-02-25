@@ -5,7 +5,6 @@ import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 import Projects from './components/Projects';
 import Internships from './components/Internships';
-import About from './components/About';
 import Contact from './components/Contact';
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route path='/hobbies' element={<Hobbies/>}></Route>
         <Route path='/projects' element={<Projects/>}></Route>
         <Route path='/internships' element={<Internships/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
       </Routes>
       </main>
     </div>

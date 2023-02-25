@@ -20,8 +20,7 @@ function Footer() {
     const[text,setText]=useState('');
     const{state,dispatch:ctxDispatch}=useContext(Store);
     const{msgInfo}=state;
-    const msgHandler=async(e)=>{
-        e.preventDefault();
+    const msgHandler=async()=>{
         try{
             const data=await axios.post('https://myportfolio-ci32.onrender.com/api/msgs/send',{
                 name,
@@ -31,7 +30,7 @@ function Footer() {
             });
             ctxDispatch({type:'SEND_MSG',payload:data});
             localStorage.setItem('msgInfo',JSON.stringify(data));
-            navigate("/");
+            navigate("/contact");
         }catch(err){
             toast.error(getError(err));
         }
