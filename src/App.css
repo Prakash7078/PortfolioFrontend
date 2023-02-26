@@ -9,11 +9,6 @@ body{
   margin:0px;
   font-family: Sofia,sans-serif;
 }
-@media screen and (max-width:486px){
-  *{
-    box-sizing: border-box;
-  }
-}
 
 
 .details a{
@@ -34,6 +29,10 @@ body{
   margin-top: 110px;
   font-size: small;
   transform: rotate(270deg);
+}
+.dropdown img:hover{
+  transform: rotate(-10deg);
+
 }
 .nav{
   display: flex;
@@ -345,12 +344,15 @@ body{
   display: flex;
   width: fit-content;
   flex-wrap: wrap;
-  color: aqua;
+  color: rgb(240, 171, 229);
   margin: 5vw;
   margin-left: 10vw;
 }
 .intern-content:hover{
   color: rgb(231, 214, 191);
+  transition: all 0.5s;
+  transform: rotate(360deg);
+  cursor: pointer;
 }
 .intern-content .content1{
   display: flex;
@@ -358,6 +360,7 @@ body{
   border: 2px solid wheat;
   text-align: center;
   align-items: center;
+  border-radius: 50px;
   padding:40px;
   
 }
@@ -374,22 +377,11 @@ body{
   cursor: pointer;
   
 }
-.container-contact #contact{
-  width: 13vw;
-  border: 2px solid white;
-  border-radius: 30px;
-  height: 60vh;
-  position: fixed;
-  left: 67vw;
-  top: 20vh;
-  background-color: rgb(220, 230, 230);
-  transform: rotate(55deg);
-  text-align: center;
-  
-}
+
 
 .intern-content a:hover{
   background-color:brown;
+  
 }
 .main-contact{
   display:flex;
