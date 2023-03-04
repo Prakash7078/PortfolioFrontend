@@ -24,7 +24,7 @@ function Content() {
                 
                
             </div>
-            <a href="https://drive.google.com/file/d/1wA1gQOrLBpY0pC6NW9XYjW6q7UmKQ4Ee/view?usp=sharing" target="_blank"className='start' download={true}>Resume</a>
+            <a href="https://drive.google.com/file/d/1_6ZAWXDc3bwp0p6QkYWr4oUuSi5Ac_er/view?usp=share_link" target="_blank"className='start' download={true}>Resume</a>
         </div>
         <div className="container2">
                 <span id="about"style={{ color: 'rgb(179, 161, 161)', fontSize: '30px' }}>
