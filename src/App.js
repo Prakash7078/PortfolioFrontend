@@ -5,7 +5,7 @@ import Education from './components/Education';
 import Hobbies from './components/Hobbies';
 import Projects from './components/Projects';
 import Internships from './components/Internships';
-import Contact from './components/Contact';
+import Contact from './components/Contact.js';
 function App() {
   return (
     <BrowserRouter>

@@ -17,7 +17,7 @@ function Navbar() {
       </div>
       <div className="navbas">
         <HashLink to="/#about">About</HashLink>
-        <Link to="/contact" >Contact</Link>
+        <Link to="/contact">Contact</Link>
         <HashLink className='login' to="/#text" >Textme</HashLink>
       </div>
 

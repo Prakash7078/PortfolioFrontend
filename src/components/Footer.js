@@ -8,19 +8,25 @@ import what from '../Images/send.png'
 import {getError} from '../utils.js'
 import { toast } from 'react-toastify'
 import axios from 'axios'
-
-import { Store } from '../Store'
 import { HashLink } from 'react-router-hash-link'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 function Footer() {
+    const form = useRef();
     const navigate=useNavigate();
     const [name,setName]=useState('');
     const[phone,setPhone]=useState();
     const[email,setEmail]=useState('');
     const[text,setText]=useState('');
-    const{state,dispatch:ctxDispatch}=useContext(Store);
-    const{msgInfo}=state;
-    const msgHandler=async()=>{
+    const msgHandler=async(e)=>{
+        e.preventDefault();  
+        emailjs.sendForm('service_60deouj', 'template_fh1hh3e', form.current, 'SEYplcctvMg-dG9Uk')
+        .then((result) => {
+            console.log(result.text);
+        },(error) => {
+            console.log(error.text);
+        });
         try{
             const data=await axios.post('https://myportfolio-ci32.onrender.com/api/msgs/send',{
                 name,
@@ -28,8 +34,6 @@ function Footer() {
                 email,
                 text,
             });
-            ctxDispatch({type:'SEND_MSG',payload:data});
-            localStorage.setItem('msgInfo',JSON.stringify(data));
             navigate("/contact");
         }catch(err){
             toast.error(getError(err));
@@ -37,7 +41,7 @@ function Footer() {
     }
     useEffect(()=>{
         msgHandler();
-    },[msgInfo]);      
+    },[]);      
 
    
   return (
@@ -55,15 +59,14 @@ function Footer() {
                 <HashLink to="">Services</HashLink>
             </div>
         </div>
-        <form className='forms'>
-            <h1 id='text'>SEND US A MESSAGE</h1>
+        <form ref={form} className='forms'>
+            <h1 id='text'>SEND A MESSAGE 💬</h1>
             <label>Your Name</label><br/><br/>
-            <input type="text" placeholder='Enter your name' onChange={(e)=>{setName(e.target.value)}}></input><br/><br/>
+            <input type="text" name="form_name"placeholder='Enter your name' onChange={(e)=>{setName(e.target.value)}}></input><br/><br/>
             <label>Phone No</label><br/><br/>
-            <input type="tel" placeholder='Mobile No' onChange={(e)=>{setPhone(e.target.value)}}></input><br/><br/>
+            <input type="tel" name="form_tel"placeholder='Mobile No' onChange={(e)=>{setPhone(e.target.value)}}></input><br/><br/>
             <label>Email</label><br/><br/>
-            <input type="email" placeholder='Enter email' onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
-                
+            <input type="email"name="form_email" placeholder='Enter email' onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
         </form>
         <div className="col2">
             <h1 >Your Message</h1>
@@ -74,5 +77,4 @@ function Footer() {
     </div>
   )
 }
-
-export default Footer
+export default Footer;

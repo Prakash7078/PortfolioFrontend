@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typewriter } from 'react-simple-typewriter'
 import Navbar from './Navbar'
 function Education() {
   return (
@@ -7,7 +8,19 @@ function Education() {
           <Navbar/>
         </div>
         <div className="educate">
-          <h1 className='mainedu'>Education</h1>
+        <span className="edu"style={{ color: ' rgb(133, 255, 182)', fontSize: '30px' }}>
+                  {/* Style will be inherited from the parent element */}
+                  My&nbsp;
+                  <Typewriter
+                    words={['Education']}
+                    cursor
+                    cursorStyle={' >>>'}
+                    loop={5}
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+          </span>
           <div className='educate1'>
           
             <h1>Geethanjali High School, Vinukonda</h1>
@@ -29,7 +42,7 @@ function Education() {
           <div className='educate3'>
             <h1>VVIT, Nambur</h1>
             <h2>B-tech</h2>
-            <h2>2021-2024</h2>
+            <h2>2020-2024</h2>
             <h2>Currently studying</h2>
           </div>
         </div>
