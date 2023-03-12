@@ -23,15 +23,23 @@ body{
   font-size: small;
   transform: rotate(270deg);
 }
-.dropdown img:hover{
+.navs{
+  display: flex;
+}
+.aside1 img{
+  margin:10px 60px 10px 0.2px;
+  width: 2vw;
+  height: 4vh;
+  border-radius: 20px;
+}
+.aside:hover{
   transform: rotate(-10deg);
-
 }
 .nav{
   display: flex;
   justify-content: space-between;
   padding: 40px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .nav .navbas a{

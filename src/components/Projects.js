@@ -31,6 +31,13 @@ function Projects() {
           <Link to="https://chandra-prakash.netlify.app/" target="_blank">Portfolio</Link>
           <Link to="https://github.com/Prakash7078/PortfolioFrontend" target="_blank">code</Link>
         </div>
+        <div className="project3">
+          <h2>Amigos</h2>
+          <p>MERN</p>
+          <p>The Amigos website is used to post the memories of yours with your friends. We can add likes to the posts and update the posts. Users can delete the posts also.</p>
+          <Link to="https://amigos-j7xz.onrender.com/" target="_blank">Amigos</Link>
+          <Link to="https://github.com/Prakash7078/AmigosFrontend" target="_blank">code</Link>
+        </div>
       </div>
     </div>
   )
