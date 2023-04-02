@@ -6,6 +6,7 @@ import Hobbies from './components/Hobbies';
 import Projects from './components/Projects';
 import Internships from './components/Internships';
 import Contact from './components/Contact.js';
+import Certificates from './components/Certificates';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route path='/hobbies' element={<Hobbies/>}></Route>
         <Route path='/projects' element={<Projects/>}></Route>
         <Route path='/internships' element={<Internships/>}></Route>
+        <Route path='/certificates' element={<Certificates/>}></Route>
       </Routes>
       </main>
     </div>

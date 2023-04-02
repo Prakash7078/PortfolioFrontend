@@ -17,6 +17,7 @@ function Navbar() {
           <Link to='/projects'>Projects</Link>
           <Link to='/internships'>Internships</Link>
           <Link to='/hobbies'>Hobbies</Link>
+          <Link to='/certificates'>Certificates</Link>
         </div>
       </div>
       <div className="navbas">

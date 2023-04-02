@@ -204,9 +204,9 @@ body{
   padding-left: 7vw;
 }
 .product img{
-  width: 18rem;
-  height: 24rem;
-  border-radius: 50%;
+  width: 19rem;
+  height: 20rem;
+  border-radius: 20%;
   padding: 20px;
   margin: 30px 20px;
 }
@@ -317,22 +317,72 @@ body{
 }
 .project-content a{
   text-decoration: none;
-  color: rgb(222, 134, 19);
+  color: rgb(44, 242, 14);
   border: 2px solid white;
   border-radius: 10px;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   padding-left:10px;
   padding-right: 10px;
   margin: 20px;
+  font-size: 20px;
 }
+.certi{
+  background-color: white;
+  margin-right: 20px;
+  padding: 20px 20px;
+  position:fixed;
+  border-radius: 10px;
+}
+.certi label,input{
+  padding-right: 20px;
+  margin: 10px 18px;
+  text-align: center;
+}
+.certi form .submit{
+  margin-left: 130px;
+  padding: 10px 20px;
+}
+.certi-form{
+  width: 35%;
+}
+.certificates-page button{
+  margin-left:140px;
+  background-color: rgb(28, 22, 22);
+  color: rgb(240, 217, 217);
+  cursor: pointer;
+  padding: 10px 20px;
 
+}
+.certificate{
+  margin-left: 10vw;
+  display: flex;
+}
+.certi-posts{
+  margin:30px 20px;
+  color: aqua;
+  border: 2px solid wheat;
+  padding: 4px;
+  background-color: rgb(57, 45, 45);
+  text-align: center;
+}
+.certi-posts a{
+  text-decoration: none;
+  color: red;
+}
+.certificate-post{
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+}
 .intern-content{
   display: flex;
   width: fit-content;
   flex-wrap: wrap;
-  color: beige;
+  color: rgb(255, 255, 255);
   margin: 5vw;
   margin-left: 10vw;
+  background-color: rgb(85, 72, 88);
+  border-radius: 30px;
 }
 .intern-content:hover{
   color: rgb(231, 214, 191);
