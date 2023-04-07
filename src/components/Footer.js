@@ -60,20 +60,17 @@ function Footer() {
             </div>
         </div>
         <form ref={form} className='forms'>
-            <h1 id='text'>SEND A MESSAGE 💬</h1>
-            <label>Your Name</label><br/><br/>
-            <input type="text" name="form_name"placeholder='Enter your name' onChange={(e)=>{setName(e.target.value)}}></input><br/><br/>
-            <label>Phone No</label><br/><br/>
-            <input type="tel" name="form_tel"placeholder='Mobile No' onChange={(e)=>{setPhone(e.target.value)}}></input><br/><br/>
-            <label>Email</label><br/><br/>
+            <h2 >SEND A MESSAGE 💬</h2>
+            <label>Your Name</label>
+            <input type="text" name="form_name"placeholder='Enter your name' onChange={(e)=>{setName(e.target.value)}}></input><br/>
+            <label>Phone No</label>
+            <input type="tel" name="form_tel"placeholder='Mobile No' onChange={(e)=>{setPhone(e.target.value)}}></input><br/>
+            <label>Email</label>
             <input type="email"name="form_email" placeholder='Enter email' onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
-        </form>
-        <div className="col2">
-            <h1 >Your Message</h1>
-            <textarea rows="5" cols="30"placeholder='Message me...'  onChange={(e)=>{setText(e.target.value)}}></textarea> 
+            <label>Message</label>
+            <textarea rows="5" cols="30"placeholder='Message me...'  onChange={(e)=>{setText(e.target.value)}}></textarea> &nbsp;
             <button onClick={msgHandler}><img src={what} width="35px" height="35px" /></button>
-        </div>
-        
+        </form>
     </div>
   )
 }

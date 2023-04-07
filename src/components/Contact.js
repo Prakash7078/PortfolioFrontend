@@ -131,7 +131,7 @@ function Contact() {
                 <label>Your Name</label>
                 <input type="text" onChange={(e)=>{setName(e.target.value)}}/><br/>
                 <label>About Me</label>
-                <textarea cols={15} rows={5} onChange={(e)=>{setDes(e.target.value)}}></textarea><br/>
+                <textarea cols={20} rows={5} onChange={(e)=>{setDes(e.target.value)}}></textarea><br/>
                 <input type="submit" className='submit'/>
               </form>
             </div>

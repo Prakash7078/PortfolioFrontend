@@ -15,7 +15,7 @@ body{
 *{
   padding: 0px;
   margin:0px;
-  font-family: Sofia,sans-serif;
+  
 }
 .container-contact #contact h1{
   color: red;
@@ -25,6 +25,7 @@ body{
 }
 .navs{
   display: flex;
+  
 }
 .aside1 img{
   margin:10px 60px 10px 0.2px;
@@ -40,6 +41,7 @@ body{
   justify-content: space-between;
   padding: 40px;
   margin-left: 10px;
+  font-family: Sofia,sans-serif;
 }
 
 .nav .navbas a{
@@ -74,6 +76,7 @@ body{
 #dropdown-content{
   display: none;
   position: fixed;
+  font-family: Sofia,sans-serif;
 }
 .dropdown:hover #dropdown-content{
   display: block;
@@ -103,6 +106,7 @@ body{
   margin-left:160px;
   padding-top:80px ;
   padding-bottom: 40px;
+  font-family: Sofia,sans-serif;
 }
 .container1 .start{
   text-decoration: none;
@@ -130,6 +134,7 @@ body{
 .container2{
   color:rgb(174, 153, 153);
   margin: 150px;
+  font-family: Sofia,sans-serif;
   
 }
 
@@ -144,6 +149,7 @@ body{
   display: flex;
   color: rgb(189, 170, 170);
   justify-content: space-between;
+  font-family: Sofia,sans-serif;
 }
 .foot .symbols{
   padding: 60px;
@@ -165,38 +171,40 @@ body{
   font-size: 20px;
   color:rgb(189, 170, 170);
 }
+.forms{
+  padding: 30px;
+}
+.forms label{
+  padding-right:50px;
+}
 .forms input{
-  padding: 5px;
-  border: 2px solid wheat;
-  border-radius: 20px;
-  text-align: center;
-}
+  padding: 4px 10px;
 
-.forms h1{
-  font-size: 20px;
-  padding-bottom: 15px;
 }
-.foot .forms{
-  margin-left:20vw;
-  padding: 0px;
-}
-.foot .col2{
-  padding-top:70px;
-  font-size: 10px;
-  margin-right: 40px;
-}
-.foot .col2 img{
-  float: right;
-  border: 2px solid red;
-  border-radius: 30px;
+.forms button{
+  border-radius:20px;
   cursor: pointer;
+
 }
 .comments{
   display: flex;
   flex-wrap: wrap;
 }
 .comment{
+  display: flex;
+}
+.comment .comment1{
   border: 2px solid white;
+  font-family: Sofia,sans-serif;
+}
+.del img{
+  padding: 3px;
+}
+.del img:hover{
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+ 
 }
 .products{
   display: flex;
@@ -257,6 +265,7 @@ body{
   font-size: 10px;
   color: antiquewhite;
   padding-left: 10vw;
+  font-family: cursive;
 }
 .educate h1,h2,p{
   padding-bottom: 10px;
@@ -286,15 +295,19 @@ body{
   background-repeat: no-repeat;
   background-size:cover;
   background-attachment: fixed;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project p,h2{
+  padding-bottom: 20px;
 }
 
 .project-content{
   display: flex;
   flex-wrap: wrap;
-  color:beige;
+  color:rgb(232, 220, 220);
   font-size: 18px;
 }
-.project1,.project2,.project3{
+.project1{
   width: 20vw;
   height: fit-content;
   display: flex;
@@ -304,27 +317,28 @@ body{
   padding: 50px;
   margin-left: 15vw;
   margin-bottom: 40px;
-  border: 2px solid rgb(101, 91, 91);
+  border: 1px solid rgb(101, 91, 91);
   border-radius: 50px;
+  background-color: rgb(41, 41, 44);
 }
 
 
-.project1:hover,.project2:hover,.project3:hover{
+.project1:hover{
   border: 3px solid white;
   background-image: linear-gradient(rgb(178, 167, 153),black,rgb(117, 110, 97));
-  transition: all 1s;
+  transition:all 0.5s;
+  color: antiquewhite;
   
 }
 .project-content a{
   text-decoration: none;
   color: rgb(44, 242, 14);
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 10px;
-  background-color: rgb(255, 255, 255);
-  padding-left:10px;
-  padding-right: 10px;
   margin: 20px;
-  font-size: 20px;
+  padding: 5px;
+  background-color: rgb(50, 45, 45);
+  font-size: 18px;
 }
 .certi{
   background-color: white;
@@ -332,6 +346,7 @@ body{
   padding: 20px 20px;
   position:fixed;
   border-radius: 10px;
+ 
 }
 .certi label,input{
   padding-right: 20px;
@@ -351,6 +366,7 @@ body{
   color: rgb(240, 217, 217);
   cursor: pointer;
   padding: 10px 20px;
+  font-family: Sofia,sans-serif;
 
 }
 .certificate{
@@ -359,15 +375,25 @@ body{
 }
 .certi-posts{
   margin:30px 20px;
-  color: aqua;
-  border: 2px solid wheat;
   padding: 4px;
-  background-color: rgb(57, 45, 45);
+  width:24vw;
+  background-color: rgb(37, 49, 57);
   text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-family:cursive;
+
+}
+.certi-posts p{
+  padding:20px 2px;
 }
 .certi-posts a{
   text-decoration: none;
-  color: red;
+  border:1px solid #001e28;
+  background-color: #253e47;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
 }
 .certificate-post{
   display: flex;
@@ -380,14 +406,15 @@ body{
   flex-wrap: wrap;
   color: rgb(255, 255, 255);
   margin: 5vw;
-  margin-left: 10vw;
+  margin-left: 13vw;
   background-color: rgb(85, 72, 88);
   border-radius: 30px;
 }
 .intern-content:hover{
   color: rgb(231, 214, 191);
-  transition: background-image,transform 0.5s;
-  transform: rotate(3deg);
+  padding-left: 5px;
+  transform: rotate(2deg);
+  transition: all 0.5s;
   background-image: linear-gradient(rgb(178, 167, 153),black,rgb(117, 110, 97));
   border-radius: 50px;
   cursor: pointer;
@@ -478,6 +505,7 @@ table td:nth-child(1){
 }
 .form-group input{
   margin:15px 10px;
+  padding: 5px 10px;
   border-radius: 10px;
 }
 .submit{
