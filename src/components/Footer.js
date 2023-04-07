@@ -69,7 +69,7 @@ function Footer() {
             <input type="email"name="form_email" placeholder='Enter email' onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
             <label>Message</label>
             <textarea rows="5" cols="30"placeholder='Message me...'  onChange={(e)=>{setText(e.target.value)}}></textarea> &nbsp;
-            <button onClick={msgHandler}><img src={what} width="35px" height="35px" /></button>
+            <button id="text"onClick={msgHandler}><img src={what} width="35px" height="35px" /></button>
         </form>
     </div>
   )
