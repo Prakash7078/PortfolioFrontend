@@ -61,12 +61,12 @@ function Footer() {
         </div>
         <form ref={form} className='forms'>
             <h2 >SEND A MESSAGE 💬</h2>
-            <label>Your Name</label>
-            <input type="text" name="form_name"placeholder='Enter your name' onChange={(e)=>{setName(e.target.value)}}></input><br/>
-            <label>Phone No</label>
-            <input type="tel" name="form_tel"placeholder='Mobile No' onChange={(e)=>{setPhone(e.target.value)}}></input><br/>
-            <label>Email</label>
-            <input type="email"name="form_email" placeholder='Enter email' onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
+            <label>Name  </label>
+            <input type="text" name="form_name" onChange={(e)=>{setName(e.target.value)}}></input><br/>
+            <label>Mobile</label>
+            <input type="tel" name="form_tel" onChange={(e)=>{setPhone(e.target.value)}}></input><br/>
+            <label>Email    </label>
+            <input type="email"name="form_email"  onChange={(e)=>{setEmail(e.target.value)}}></input><br/><br/>
             <label>Message</label>
             <textarea rows="5" cols="30"placeholder='Message me...'  onChange={(e)=>{setText(e.target.value)}}></textarea> &nbsp;
             <button id="text"onClick={msgHandler}><img src={what} width="35px" height="35px" /></button>

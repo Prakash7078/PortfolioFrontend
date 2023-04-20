@@ -3,6 +3,7 @@ import React from 'react'
 import Footer from './Footer';
 import Navbar from './Navbar';
 import { Typewriter } from 'react-simple-typewriter'
+import chandra from '../Images/Chandra1.jpeg'
 function Content() {
   return (
     <div className="container">
@@ -21,10 +22,9 @@ function Content() {
                     delaySpeed={1000}
                   />
                 </span>
-                
-               
             </div>
             <a href="https://drive.google.com/file/d/1_6ZAWXDc3bwp0p6QkYWr4oUuSi5Ac_er/view?usp=share_link" target="_blank"className='start' download={true}>Resume</a>
+           
         </div>
         <div className="container2">
                 <span id="about"style={{ color: 'rgb(179, 161, 161)', fontSize: '30px' }}>
