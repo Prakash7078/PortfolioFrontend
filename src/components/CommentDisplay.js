@@ -17,8 +17,8 @@ function CommentDisplay(props) {
   return (
     <div className='comment'>
         <div className="comment-1">
-        <h2>{comment.name}</h2>
-        <p>{comment.des}</p>
+          <h2>{comment.name}</h2>
+          <p>{comment.des}</p>
         </div>
         <div className="del">
           <img src={ima} width="25px" height="25px" onClick={deletePost}/>

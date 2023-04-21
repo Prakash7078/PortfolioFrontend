@@ -26,7 +26,7 @@ body{
   padding: 0px;
   margin:0px;
 }
-.container-contact #contact h1{
+.container-contact1 #contact h1{
   color: red;
   margin-top: 110px;
   font-size: small;
@@ -195,15 +195,16 @@ body{
 @media screen and (max-width:500px) {
   .foot{
     display: block;
-    padding-left: 25px;
+    padding-left: 35px;
   }
   .foot .symbols a img{
     width:20px;
     height:25px;
   }
   .forms textarea{
-    margin-left:55px;
-    padding: 0px;
+    margin-right: 10px;
+    padding:0px;
+    width:35vw;
   }
 }
 .foot .symbols{
@@ -212,7 +213,7 @@ body{
 .foot .symbols a{
   padding-right: 30px;
   @media (max-width:500px) {
-    padding-right:15px;
+    padding-right:20px;
   }
 }
 .symbols a:hover{
@@ -231,7 +232,7 @@ body{
 .forms{
   padding: 30px;
   @media (max-width:500px) {
-    padding:0px 15px 7px 40px ;
+    padding:0px 15px 20px 40px ;
   }
   
 }
@@ -254,11 +255,14 @@ body{
 }
 .comment{
   display: flex;
- 
+  @media screen and (max-width:500px) {
+    display:block;
+  }
 }
 .comment .comment-1{
   @media screen and (max-width:500px) {
     width:fit-content;
+    padding:15px 5px;
   }
 }
 .del img{
@@ -590,7 +594,7 @@ table td:nth-child(1){
   display: flex;
   flex-wrap: wrap;
   @media screen and (max-width:500px) {
-    margin-left:30px;
+    margin-left:60px;
     font-size:small;
   }
 }
