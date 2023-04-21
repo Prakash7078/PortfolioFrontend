@@ -20,6 +20,7 @@ body{
   .aside1,.aside{
     width: 30px;
   }
+  
 }
 *{
   padding: 0px;
@@ -41,7 +42,7 @@ body{
   border-radius: 20px;
   @media (max-width:480px) {
     width:5vw;
-    height:2.5vh;
+    height:3vh;
   }
 }
 .aside:hover{
@@ -54,8 +55,8 @@ body{
   margin-left: 10px;
   font-family: Sofia,sans-serif;
   @media screen and (max-width:480px) {
-    padding:25px;
-    margin:20px;
+    padding:20px;
+    margin:10px;
   }
 }
 
@@ -73,7 +74,7 @@ body{
     font-size:small;
     border:0px;
     padding:5px;
-    margin:7px;
+    margin:7px 3px 7px 5px;
   }
 }
 .nav .navbas a:hover{
@@ -87,6 +88,13 @@ body{
   color: white;
   border-radius: 30px;
   padding: 10px;
+  @media (max-width:480px) {
+    font-size:small;
+    border:0px;
+    padding:5px;
+    margin:7px 2px 7px 5px;
+  }
+  
 }
 .nav .login:hover{
   cursor: pointer;
@@ -134,7 +142,7 @@ body{
   @media screen and (max-width:480px) {
     font-size:small;
     padding-top:200px;
-    margin-left:120px;
+    margin:0px 50px 0px 90px;
   }
 }
 
@@ -167,7 +175,7 @@ body{
   font-family: Sofia,sans-serif;
   @media screen and (max-width:480px) {
     font-size:small;
-    margin:110px;
+    margin:90px;
   }
 }
 
@@ -187,7 +195,15 @@ body{
 @media screen and (max-width:480px) {
   .foot{
     display: block;
-    text-align: center;
+    padding-left: 25px;
+  }
+  .foot .symbols a img{
+    width:20px;
+    height:25px;
+  }
+  .forms textarea{
+    margin:0px 0px 10px 75px;
+    padding: 0px;
   }
 }
 .foot .symbols{
@@ -195,7 +211,6 @@ body{
 }
 .foot .symbols a{
   padding-right: 30px;
-
 }
 .symbols a:hover{
   padding: 10px;
@@ -213,7 +228,7 @@ body{
 .forms{
   padding: 30px;
   @media (max-width:480px) {
-    padding:10px;
+    padding:0px 15px 10px 40px ;
   }
   
 }
@@ -236,11 +251,12 @@ body{
 }
 .comment{
   display: flex;
-  
+ 
 }
-.comment .comment1{
-  border: 2px solid white;
-  font-family: Sofia,sans-serif;
+.comment .comment-1{
+  @media screen and (max-width:480px) {
+    width:fit-content;
+  }
 }
 .del img{
   padding: 3px;
@@ -262,6 +278,9 @@ body{
   border-radius: 20%;
   padding: 20px;
   margin: 30px 20px;
+  @media screen and (max-width:480px){
+    padding:0px;
+  }
 }
 .product{
   text-align: center;
@@ -287,7 +306,7 @@ body{
   margin-bottom:20px;
   margin-left: 12vw;
   @media screen and (max-width:480px){
-    margin-left:15vw;
+    padding-left:20px;
   }
   
 }
@@ -437,6 +456,10 @@ body{
 .certificate{
   margin-left: 10vw;
   display: flex;
+  @media screen and (max-width:480px) {
+    font-size:small;
+    margin:6vw;
+  }
 }
 .certi-posts{
   margin:30px 20px;
@@ -561,7 +584,7 @@ table td:nth-child(1){
   display: flex;
   flex-wrap: wrap;
   @media screen and (max-width:480px) {
-    margin-left:100px;
+    margin-left:30px;
     font-size:small;
   }
 }
