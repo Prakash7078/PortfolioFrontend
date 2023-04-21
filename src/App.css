@@ -4,7 +4,7 @@ body{
   background-attachment: fixed;
   background-position: center;
 }
-@media (max-width: 480px) {
+@media (max-width:480px) {
   body{
     background-image:url("./Images/mobile1.jpeg");
     background-size: cover;
@@ -12,23 +12,18 @@ body{
     background-position: center;
   }
   .App{
-    width:fit-content;
     font-size: small;
   }
   .foot-content{
     display: none;
   }
   .aside1,.aside{
-    width: 40px;
+    width: 30px;
   }
-  
-  
-  
 }
 *{
   padding: 0px;
   margin:0px;
-  
 }
 .container-contact #contact h1{
   color: red;
@@ -38,14 +33,16 @@ body{
 }
 .navs{
   display: flex;
-  
-  
 }
 .aside1 img{
   margin:10px 60px 10px 0.2px;
   width: 2vw;
   height: 4vh;
   border-radius: 20px;
+  @media (max-width:480px) {
+    width:5vw;
+    height:2.5vh;
+  }
 }
 .aside:hover{
   transform: rotate(-10deg);
@@ -56,6 +53,10 @@ body{
   padding: 40px;
   margin-left: 10px;
   font-family: Sofia,sans-serif;
+  @media screen and (max-width:480px) {
+    padding:25px;
+    margin:20px;
+  }
 }
 
 .nav .navbas a{
@@ -71,8 +72,8 @@ body{
   @media screen and (max-width:480px) {
     font-size:small;
     border:0px;
-    padding:7px;
-    margin:10px;
+    padding:5px;
+    margin:7px;
   }
 }
 .nav .navbas a:hover{
@@ -132,9 +133,8 @@ body{
   font-family: Sofia,sans-serif;
   @media screen and (max-width:480px) {
     font-size:small;
-    padding-top:150px;
-    margin-left:140px;
-    
+    padding-top:200px;
+    margin-left:120px;
   }
 }
 
@@ -167,8 +167,8 @@ body{
   font-family: Sofia,sans-serif;
   @media screen and (max-width:480px) {
     font-size:small;
+    margin:110px;
   }
-  
 }
 
 .container2 p{
@@ -212,6 +212,9 @@ body{
 }
 .forms{
   padding: 30px;
+  @media (max-width:480px) {
+    padding:10px;
+  }
   
 }
 .forms label{
@@ -233,6 +236,7 @@ body{
 }
 .comment{
   display: flex;
+  
 }
 .comment .comment1{
   border: 2px solid white;
@@ -370,7 +374,7 @@ body{
   background-color: rgb(41, 41, 44);
   @media screen and (max-width:480px) {
     width:fit-content;
-    margin-right:15px;
+    margin-right:45px;
     font-size:small;
   }
 }
@@ -473,6 +477,9 @@ body{
   margin-left: 13vw;
   background-color: rgb(85, 72, 88);
   border-radius: 30px;
+  @media (max-width:480px) {
+    margin:8vh 18vw;
+  }
 }
 .intern-content:hover{
   color: rgb(231, 214, 191);
@@ -552,6 +559,11 @@ table td:nth-child(1){
 }
 .main-contact{
   display: flex;
+  flex-wrap: wrap;
+  @media screen and (max-width:480px) {
+    margin-left:100px;
+    font-size:small;
+  }
 }
 .form-group{
   background-image: linear-gradient(rgb(44, 39, 39),rgb(46, 42, 42),rgb(64, 64, 59));
@@ -561,6 +573,10 @@ table td:nth-child(1){
   text-align: center;
   width: fit-content;
   height: fit-content;
+  @media screen and (max-width:480px) {
+    font-size:small;
+    padding:3px;
+  }
 }
 .form-group label,h1{
   color: antiquewhite;
