@@ -142,7 +142,7 @@ body{
   @media screen and (max-width:480px) {
     font-size:small;
     padding-top:200px;
-    margin:0px 50px 0px 90px;
+    margin:0px 50px 0px 80px;
   }
 }
 
@@ -175,7 +175,7 @@ body{
   font-family: Sofia,sans-serif;
   @media screen and (max-width:480px) {
     font-size:small;
-    margin:90px;
+    margin:70px;
   }
 }
 
@@ -202,7 +202,7 @@ body{
     height:25px;
   }
   .forms textarea{
-    margin:0px 0px 10px 75px;
+    margin-left:55px;
     padding: 0px;
   }
 }
@@ -211,6 +211,9 @@ body{
 }
 .foot .symbols a{
   padding-right: 30px;
+  @media (max-width:480px) {
+    padding-right:15px;
+  }
 }
 .symbols a:hover{
   padding: 10px;
@@ -228,7 +231,7 @@ body{
 .forms{
   padding: 30px;
   @media (max-width:480px) {
-    padding:0px 15px 10px 40px ;
+    padding:0px 15px 7px 40px ;
   }
   
 }
@@ -260,6 +263,9 @@ body{
 }
 .del img{
   padding: 3px;
+  @media (max-width:480px) {
+    padding:1px;
+  }
 }
 .del img:hover{
   background-color: white;
@@ -621,4 +627,5 @@ table td:nth-child(1){
 }
 .contact-details{
   width: 65%;
+
 }
