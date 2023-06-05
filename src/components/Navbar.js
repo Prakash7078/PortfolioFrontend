@@ -23,7 +23,7 @@ function Navbar() {
       <div className="navbas">
         <HashLink to="/#about">About</HashLink>
         <Link to="/contact">Contact</Link>
-        <HashLink className='login' to="/#text" >Textme</HashLink>
+        <HashLink className='login' to="/#text" >Hire me</HashLink>
       </div>
 
       

@@ -13,7 +13,8 @@ function Internships() {
           <h1>Internship</h1>
           <p>Dynamatix Analytics Private Limited</p>
           <p> 813 Manjeera Trinity Corporate, Kukatpally, Hyderabad 500072</p>
-          <Link to="https://drive.google.com/file/d/1OgAAj7Chf8w5YR59NH6v7ou0rOYFEvL3/view?usp=sharing" target="_blank"download={true}>OfferLetter</Link>
+          <Link to="https://drive.google.com/file/d/1OgAAj7Chf8w5YR59NH6v7ou0rOYFEvL3/view?usp=sharing" target="_blank"download={true}>OfferLetter</Link><br/>
+          <Link to="https://drive.google.com/file/d/1fFp0zxdpB5SlJRHNHMMShfO3k2Zilb2b/view?usp=sharing" target="_blank"download={true}>Completion Certificate</Link>
         </div>
       </div>
       <div className="intern-content">
@@ -24,6 +25,7 @@ function Internships() {
           <Link to="https://drive.google.com/file/d/1H6WR-TnI3xrVWnQgrml2YPO5Ct_BccEX/view?usp=sharing" target="_blank"download={true}>Certificate</Link>
         </div>
       </div>
+      
    
     </div>
   )

@@ -508,7 +508,7 @@ body{
   color: rgb(255, 255, 255);
   margin: 5vw;
   margin-left: 13vw;
-  background-color: rgb(85, 72, 88);
+  background-color: rgb(44, 44, 46);
   border-radius: 30px;
   @media (max-width:600px) {
     margin:8vh 18vw;
