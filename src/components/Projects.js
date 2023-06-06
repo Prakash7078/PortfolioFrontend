@@ -36,6 +36,12 @@ function Projects() {
           <Link to="https://amigos-j7xz.onrender.com/" target="_blank">Amigos</Link>
           <Link to="https://github.com/Prakash7078/AmigosFrontend" target="_blank">code</Link>
         </div>
+        <div className="project1">
+          <h2>FlappyBird Game</h2>
+          <p>Unity</p>
+          <p>The Flappy Bird game is designed with help of unity game engine.</p>
+          <Link to="https://github.com/Prakash7078/Unity-FlappyBird" target="_blank">code</Link>
+        </div>
       </div>
     </div>
   )
