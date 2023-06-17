@@ -293,6 +293,7 @@ body{
   border-radius: 20%;
   padding: 20px;
   margin: 30px 20px;
+
   @media screen and (max-width:650px){
     padding:0px;
   }
@@ -436,10 +437,11 @@ body{
   background-color: white;
   margin-right: 20px;
   padding: 20px 20px;
-  position:fixed;
+  position:absolute;
   border-radius: 10px;
   @media screen and (max-width:650px) {
-    right:4vw;
+    position: absolute;
+    right:10px;
   }
 }
 .certi label,input{
@@ -458,6 +460,8 @@ body{
 }
 .certi-form{
   width: 35%;
+  position: relative;
+  
 }
 .certificates-page button{
   margin-left:140px;
