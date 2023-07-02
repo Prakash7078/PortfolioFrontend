@@ -14,9 +14,6 @@ body{
   .App{
     font-size: small;
   }
-  .foot-content{
-    display: none;
-  }
   .aside1,.aside{
     width: 30px;
   }
@@ -185,48 +182,69 @@ body{
   padding-top: 20px;
 }
 .foot{
-  background-image:linear-gradient(rgb(110, 89, 89),rgb(58, 55, 55),rgb(12, 12, 12)); 
   background-attachment: fixed;
   display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
   color: rgb(189, 170, 170);
   justify-content: space-between;
   font-family: Sofia,sans-serif;
- 
+  background-image:linear-gradient(rgb(67, 53, 53),rgb(77, 62, 62),rgb(12, 12, 12))
 }
-@media screen and (min-width:390px){
-    
+.foot .last{
+  margin: 0px auto;
+  padding-top: 50px;
 }
+.last a{
+  text-decoration: none;
+  color: rgb(145, 132, 132);
+  font-weight:700;
+  padding-left: 3px;
+}
+.last a:hover{
+  border-bottom: 2px solid ;
+}
+.foot .foot-row1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot .foot-row1 .svg{
+  @media screen and (max-width:650px) {
+    display: none;
+  }
+}
+
 @media screen and (max-width:650px) {
   .foot{
-    display: block;
-    padding-left: 50px;
+    display:block;
+    padding:20px 70px;
+
   }
-  .foot .symbols a img{
-    width:20px;
-    height:25px;
-  }
+  
   .forms textarea{
-    margin-right:0px;
-    padding:0px;
-    width:30vw;
+    width:80vw;
   }
   
 }
-.foot .symbols{
-  padding: 60px;
-}
-.foot .symbols a{
-  padding-right: 30px;
+
+.foot-row1 .symbols a{
+  padding-right: 20px;
+
   @media (max-width:650px) {
     padding-right:20px;
   }
 }
-.symbols a:hover{
-  padding: 10px;
-  transition: all 0.5s;
-}
+
 .col1{
-  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
 }
 .col1 .foot-content a{
   text-decoration: none;
@@ -235,27 +253,67 @@ body{
   color:rgb(189, 170, 170);
 }
 .forms{
-  padding: 30px;
-  @media (max-width:650px) {
-    padding:0px 10px 20px 30px ;
+  display: flex;
+  width: 50%;
+  padding: 20px 0px;
+  flex-direction: column;
+  justify-content:flex-start;
+  @media screen and (max-width:650px) {
+    width: 100%;
   }
+}
+.forms input{
+  background-color: transparent;
+  padding: 5px 30px;
+  color: white;
+  
   
 }
-.forms label{
-  padding-right:55px;
-  @media (max-width:370px) {
-    padding:10px;
-  }
+.forms textarea{
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+  box-shadow: 0 2px 3px rgb(177, 167, 167);
 }
-.forms input,textarea{
-  padding: 5px 10px;
-  background-color: #343436;
-  color:white ;
+.forms .row1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
 }
-.forms button{
-  border-radius:20px;
-  cursor: pointer;
-
+.forms .row1 h1{
+  font-weight: bold;
+}
+.forms .row2 .row-col input{
+  color:rgb(190, 163, 163);
+  text-align: start;
+  
+}
+.forms .row2,.row3{
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+}
+.forms .row-col{
+  display: flex;
+  flex-direction: column;
+}
+.forms .row4{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.forms .row5{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+.forms .row6 button{
+  padding:7px 10px;
+  background-color: black;
+  color:rgb(190, 163, 163);
+  cursor:pointer;
+  border-radius: 10px;
 }
 .comments{
   display: flex;
