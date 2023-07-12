@@ -23,7 +23,7 @@ function Content() {
                   />
                 </span>
             </div>
-            <a href="https://drive.google.com/file/d/1_6ZAWXDc3bwp0p6QkYWr4oUuSi5Ac_er/view?usp=share_link" target="_blank"className='start' download={true}>Resume</a>
+            <a href="https://drive.google.com/file/d/1N9D9u0b8RbhA4AJFDCtQ-PYc1yoayi_L/view?usp=sharing" target="_blank"className='start' download={true}>Resume</a>
            
         </div>
         <div className="container2">

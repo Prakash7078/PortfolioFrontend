@@ -317,6 +317,9 @@ body{
   flex-direction: column;
   width: fit-content;
 }
+textarea{
+  color: white;
+}
 .forms .row6 button{
   padding:7px 10px;
   background-color: black;

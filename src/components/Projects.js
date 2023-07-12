@@ -42,6 +42,13 @@ function Projects() {
           <p>The Flappy Bird game is designed with help of unity game engine.</p>
           <Link to="https://github.com/Prakash7078/Unity-FlappyBird" target="_blank">code</Link>
         </div>
+        <div className="project1">
+          <h2>Chat Application</h2>
+          <p>ReactJS,Firebase</p>
+          <p>The Chat application is one-one communication, we can chat to anyone in that application by searching their names in search bar and make them as friends.</p>
+          <Link to="https://chat-dude.netlify.app/" target="_blank">Chat-dude</Link>
+          <Link to="https://github.com/Prakash7078/chatMe" target="_blank">code</Link>
+        </div>
       </div>
     </div>
   )
